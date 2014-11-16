@@ -152,13 +152,15 @@ MainMenu.prototype = {
 	// This function gets called every frame.
 
 	Update: function(){
+		// Fade into this scene
 		var FO = this.FadeObject;
 		if(FO.meshdata.material.opacity > 0){
 			FO.meshdata.material.opacity -= FO.fadeSpeed * deltaTime;
 		};
+		// Update the flags' waving timer
 		this.waveTimer += 0.001;
 		this.flagMaterial.uniforms['time'].value = this.waveTimer;
-
+		// Update the buttons' waving timer
 		for (var i = this.ButtonList.length - 1; i >= 0; i--) {
 			this.ButtonList[i].Mesh.material.uniforms['time'].value = this.waveTimer;
 		};
@@ -191,10 +193,6 @@ MainMenu.prototype = {
 		        	type: "f",
 		        	value: startPosition 
 		        },
-		        outlineWidth: {
-		        	type: "f",
-		        	value: 400.0 
-		        },
 		        hovering: {
 		        	type: "f",
 		        	value: 0.0 
@@ -203,11 +201,6 @@ MainMenu.prototype = {
 		    transparent: true,
 		    vertexShader: shader.Vertex.textContent,
 		    fragmentShader: shader.Fragment.textContent
-		});
-
-		// Add a DAT.GUI box for 1 line for the shader controls
-		this.gui = new dat.gui.GUI({
-		    height : 1 * 32 - 1
 		});
 
 		// Holding class for the buttons; a mesh and a collision box
@@ -219,8 +212,6 @@ MainMenu.prototype = {
 
 		// Add the mesh and collision class to the button list
 		this.ButtonList.push(buttonHolder);
-		// Link the DAT.GUI with the uniform
-		this.gui.add(this.ButtonList[currentPos].Mesh.material.uniforms[ 'outlineWidth' ], 'value', 0 , 600).name("Edge Detection");		
 
 		// Set the position and tags for the meshes
 		this.ButtonList[currentPos].Mesh.position.set(0,startPosition,106);
@@ -241,7 +232,20 @@ MainMenu.prototype = {
 
 	onMouseDown: function ( event ) {
 		this.CameraToMouse();
+		// Check all buttons
+		for (var i = this.ButtonList.length - 1; i >= 0; i--) {
+			// Check if the button is active
+			if(this.ButtonList[i].Mesh.visible == true){
+				// Get the object that was hit
+				var intersectedObject = this.raycaster.intersectObject( this.ButtonList[i].Collision );
 
+				// If there was 1 or more objects change the hovering state
+				if ( intersectedObject.length > 0 ) {
+					// Change the hovering uniform to 1 which indicates a hovering state
+					this.ButtonList[i].Mesh.material.uniforms[ 'hovering' ].value = 1.0;
+				};
+			};
+		};
 	},
 
 	///////////////////
