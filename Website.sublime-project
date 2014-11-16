@@ -1,0 +1,20 @@
+{
+    "folders":
+    [
+        {
+            "path": "src",
+            "folder_exclude_patterns": ["backup"]
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    },
+    "build_systems":
+    [
+        {
+            "name": "HTML",
+            "cmd": [ "C:\\Users\\Media\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", "$file"]
+        }
+    ]
+}

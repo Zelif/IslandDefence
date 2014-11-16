@@ -1,0 +1,687 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Bu",
+				"ButtonList"
+			],
+			[
+				"inhei",
+				"innerHeight"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"Fai",
+				"fadein"
+			],
+			[
+				"ME",
+				"MeshBasicMaterial"
+			],
+			[
+				"fa",
+				"fadeHold"
+			],
+			[
+				"sc",
+				"scene"
+			],
+			[
+				"Gam",
+				"GameManager"
+			],
+			[
+				"Game",
+				"Gamemanger"
+			],
+			[
+				"Thre",
+				"THREE"
+			],
+			[
+				"shade",
+				"shaderList"
+			],
+			[
+				"ver",
+				"vertexShader"
+			],
+			[
+				"sha",
+				"shaderList"
+			],
+			[
+				"Me",
+				"MeshBasicMaterial"
+			],
+			[
+				"t",
+				"three"
+			],
+			[
+				"Th",
+				"THREE"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"clam",
+				"claim"
+			],
+			[
+				"claimA",
+				"claimAmount"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"on",
+				"onmouseout	Attr"
+			],
+			[
+				"onm",
+				"onmouseover	Attr"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"S",
+				"_SESSION"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"a",
+				"alt	Attr"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"b",
+				"background-repeat"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"myerr",
+				"mysql_error"
+			],
+			[
+				"mysqlerr",
+				"mysql_error"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"m",
+				"mysql_result"
+			],
+			[
+				"link",
+				"link	Tag"
+			],
+			[
+				"lin",
+				"Login"
+			],
+			[
+				"numberG",
+				"numberGuessed"
+			],
+			[
+				"num",
+				"numberOfGuess"
+			],
+			[
+				"va",
+				"variable1"
+			],
+			[
+				"ran",
+				"randomNumber"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"s",
+				"sqlQuery"
+			],
+			[
+				"my",
+				"mysql_connect"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "HTML",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"gl",
+				"Set Syntax: GLSL"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ter",
+				"TernJS: Reload"
+			],
+			[
+				"t",
+				"TernJS: Reload"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"s ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sephp",
+				"Set Syntax: PHP"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sht",
+				"Set Syntax: HTML"
+			],
+			[
+				"set ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"se",
+				"Set Syntax: HTML"
+			],
+			[
+				"sethtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set C++",
+				"Set Syntax: C++"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"se php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set c+",
+				"Set Syntax: C++"
+			],
+			[
+				"set CSS3",
+				"Set Syntax: CSS3"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"unity",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"C#",
+				"Set Syntax: C#"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"ternJS:Reload",
+			"print('\\n'*100)",
+			"os.system(\"clear\")",
+			"os.system(\"cls\")",
+			"clear",
+			"cls",
+			"ternJS:Reload",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/inetpub/wwwroot/src",
+		"/C/inetpub/wwwroot/src/js",
+		"/C/inetpub/wwwroot/src/js/BaseClasses",
+		"/C/inetpub/wwwroot/src/js/GameHandling",
+		"/C/inetpub/wwwroot/src/js/States",
+		"/C/inetpub/wwwroot/src/js/ThreeJS",
+		"/C/inetpub/wwwroot/src/js/Util",
+		"/C/inetpub/wwwroot/src/Shaders",
+		"/C/inetpub/wwwroot/src/Shaders/Flag",
+		"/C/inetpub/wwwroot/src/Shaders/MenuButton",
+		"/C/inetpub/wwwroot/src/Shaders/Water"
+	],
+	"file_history":
+	[
+		"/C/inetpub/wwwroot/src/js/States/MainMenu.js",
+		"/C/inetpub/wwwroot/src/js/States/GameState.js",
+		"/C/inetpub/wwwroot/src/js/States/Splash.js",
+		"/C/inetpub/wwwroot/src/js/BaseClasses/State.js",
+		"/C/inetpub/wwwroot/src/js/GameHandling/CanvasContainer.js",
+		"/C/inetpub/wwwroot/src/js/GameHandling/GameManager.js",
+		"/C/inetpub/wwwroot/src/js/ThreeJS/THREEx.WindowResize.js",
+		"/C/Users/Media/AppData/Roaming/.minecraft/versions/TMI/1.8.json",
+		"/C/inetpub/wwwroot/src/index.html",
+		"/C/inetpub/wwwroot/src/Shaders/Flag/Flag.vert",
+		"/C/inetpub/wwwroot/src/Shaders/Flag/Flag.frag",
+		"/C/inetpub/wwwroot/src/Shaders/MenuButton/MenuButton.frag",
+		"/C/Users/Media/Desktop/Eventstuff.cs",
+		"/C/inetpub/wwwroot/src/js/Util/LoadShaders.js",
+		"/C/inetpub/wwwroot/src/Shaders/Water/Water.frag",
+		"/C/inetpub/wwwroot/src/js/ThreeJS/three.min.js",
+		"/C/inetpub/wwwroot/src/Shaders/Water/Water.vert",
+		"/C/Users/Media/AppData/Local/Temp/7zO4529.tmp/index.html",
+		"/E/README.TXT",
+		"/C/inetpub/wwwroot/Website.sublime-project",
+		"/C/inetpub/wwwroot/src/js/BaseClasses/GameManager.js",
+		"/C/inetpub/wwwroot/src/js/GameManager.js",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/HD_CRASH_LOG.TXT",
+		"/F/Program Files (x86)/Deadlock II - Shrine Wars/aqrit.cfg",
+		"/F/Program Files (x86)/Deadlock II - Shrine Wars/DEBUG.TXT",
+		"/C/Users/Media/Downloads/Dxwin/readme-relnotes.txt",
+		"/C/Users/Media/AppData/Local/Temp/7zO7EDC.tmp/ddhack.txt",
+		"/F/Program Files (x86)/Deadlock II - Shrine Wars/COMBAT.TXT",
+		"/F/Program Files (x86)/Deadlock II - Shrine Wars/REPLAY.TXT",
+		"/F/Program Files (x86)/Deadlock II - Shrine Wars/README.TXT",
+		"/F/Program Files (x86)/Deadlock II - Shrine Wars/DEADLOCK.TXT",
+		"/C/Users/Media/AppData/Local/Temp/7zO6C85.tmp/particle.vert",
+		"/F/ISO/WebsiteProject/src/Shaders/water.vert",
+		"/F/ISO/WebsiteProject/src/index.html",
+		"/C/inetpub/wwwroot/src/Shaders/Water/water.vert",
+		"/C/inetpub/wwwroot/src/Shaders/Water/water.frag",
+		"/C/inetpub/wwwroot/src/Shaders/water.frag",
+		"/C/inetpub/wwwroot/src/Shaders/water.vert",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/Mods/Yona/description.txt",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/Mods/Yona/description_rus.txt",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/Tools/Erm Editor/ERMS_Loading.txt",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/Mods/list.txt",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/UPDATE/readme.txt",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/woglogs/WoGDebug1.txt",
+		"/F/Program Files (x86)/Heroes of Might and Magic 3 Complete/Help/Era manual/era ii changelog.txt",
+		"/C/Users/Media/AppData/Roaming/SpaceEngineersDedicated/SpaceEngineers-Dedicated.cfg",
+		"/F/ISO/WebsiteProject/Website.sublime-project",
+		"/F/Program Files (x86)/Hoyle/Hoyle Puzzle and Board Games/HoyleDLL.ini",
+		"/C/Users/Jarod/Desktop/Doxygen-1.8.7-20140729092310/bin/Release64/ui",
+		"/C/Users/Jarod/Desktop/Dystopian Knights/Assets/Scripts/Units.cs",
+		"/C/Users/Jarod/Desktop/WebsiteProject/Website.sublime-project",
+		"/C/Users/Jarod/Desktop/WebsiteProject/src/js/three.min.js",
+		"/C/Users/Jarod/Desktop/WebsiteProject/index.html",
+		"/C/Program Files (x86)/Serena Software Inc/OpenProj/OpenProj1.4.0.ini",
+		"/C/Users/Jarod/Desktop/OpenProj1.4.0.ini",
+		"/F/MC/Direwolf20_1_6_4/minecraft/config/Opis.cfg",
+		"/F/MC/Direwolf20_1_6_4/minecraft/config/MapWriter.cfg",
+		"/C/Users/Jarod/Documents/Visual Studio 2010/Projects/2D-SDL/2D-SDL/Rota.cpp",
+		"/F/UnityProjects/AoT/aot/Unity/Assets/_Scenes/battlefield.unity",
+		"/C/Users/Jarod/Desktop/Diploma/regdfgd/html/index.html",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/css/stylesheet.css",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/details.html",
+		"/C/Users/Jarod/Desktop/DOXY/html/index.html",
+		"/C/Users/Jarod/Desktop/Assessment 2 JS/investment.html",
+		"/C/Users/Jarod/Desktop/Assignment1 JS/states.html",
+		"/C/Users/Jarod/Desktop/Assessment 2 JS/js/js.js",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/js/MEOW/assets/js/logon.js",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/js/js.js",
+		"/C/Users/Jarod/Desktop/CERT4 - Major Project/LD27 - Seconds/Screen Manager.cpp",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/js/MEOW/form.html",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/js/MEOW/formdisplay.php",
+		"/E/JS Assessments/assets/js/dynamic.js",
+		"/E/JS Assessments/dynamic.html",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/display.php",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/index.html",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/dynamic.html",
+		"/C/Users/Jarod/Documents/Page/js/javascript.js",
+		"/C/Users/Jarod/Documents/Page/jsstuff.html",
+		"/C/Users/Jarod/Desktop/Assessment 2 JS/css/stylesheet.css",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/index.php",
+		"/C/Users/Jarod/Desktop/Assessment 2 JS/tax.html",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/animation.html",
+		"/C/Users/Jarod/Desktop/Assessment 3 JS/css/stylesheet",
+		"/C/Users/Jarod/Desktop/Assignment1 JS/js/js.js",
+		"/C/Users/Jarod/Desktop/Assignment1 JS/index.html",
+		"/C/Users/Jarod/Desktop/Assignment1 JS/insurance.html",
+		"/C/Users/Jarod/Desktop/Assignment1 JS/css/stylesheet.css",
+		"/C/Users/Jarod/Desktop/Hangman/startGame.php",
+		"/C/Users/Jarod/Desktop/Assignment JS 1/js/js.js",
+		"/C/Users/Jarod/Desktop/Assignment JS 1/insurance.html",
+		"/C/Users/Jarod/Desktop/Assignment JS 1/index.html",
+		"/C/Users/Jarod/Desktop/Assignment JS 1/states.html",
+		"/C/Users/Jarod/Desktop/Assignment JS 1/css/stylesheet.css",
+		"/C/Users/Jarod/Desktop/Hangman/add_words.php",
+		"/C/Users/Jarod/Desktop/Hangman/game.php",
+		"/C/Users/Jarod/Desktop/Assessment 3/A3/database.php",
+		"/C/Users/Jarod/Desktop/Assessment 3/B1/DB Design_files/print.css",
+		"/C/Users/Jarod/Desktop/Assessment 3/B1/DB Design_files/messages.php",
+		"/C/Users/Jarod/Desktop/Assignment JS 1/nsw.html",
+		"/C/Users/Jarod/Desktop/Assignment JS 1/css/insurance.html",
+		"/C/Users/Jarod/Desktop/Hangman/css/stylesheet.css",
+		"/C/MC/server.properties",
+		"/C/Users/Jarod/Desktop/Hangman/deleteGame.php",
+		"/C/Users/Jarod/Desktop/Php/Hangman outline document",
+		"/C/Users/Jarod/Desktop/Hangman/js/javascript.js",
+		"/C/Users/Jarod/Desktop/Hangman/add_user1.php",
+		"/C/Users/Jarod/Downloads/hangman.php",
+		"/C/Users/Jarod/Desktop/Hangman/index.php",
+		"/C/Users/Jarod/Desktop/error_log",
+		"/C/Users/Jarod/Desktop/Hangman/topFramework.php",
+		"/C/Users/Jarod/Desktop/style.css",
+		"/C/Users/Jarod/Documents/Page/edit_delete_record1.php",
+		"/C/Users/Jarod/Desktop/Hangman/bottomFramework.php",
+		"/C/Users/Jarod/Desktop/Php/index.php",
+		"/C/Users/Jarod/Documents/Page/main.php",
+		"/C/Users/Jarod/Documents/Page/add_user1.php",
+		"/C/Users/Jarod/Documents/Page/processlogin_script.php",
+		"/C/Users/Jarod/Documents/Page/css/style.css",
+		"/C/Users/Jarod/Documents/Page/add_user2.php",
+		"/C/Users/Jarod/Documents/Page/database.php",
+		"/C/Users/Jarod/Documents/Page/security.php",
+		"/C/Users/Jarod/Documents/Page/PasswordHash.php",
+		"/C/Users/Jarod/Documents/Page/index.php",
+		"/C/Users/Jarod/AppData/Local/Temp/7zO22E4.tmp/processlogin_script.php",
+		"/C/Users/Jarod/AppData/Local/Temp/7zO46C9.tmp/database.php",
+		"/C/inetpub/wwwroot/index.php",
+		"/C/Users/Jarod/Documents/Page/meow.conf",
+		"/F/UnityProjects/AoT/aot/Unity/Assets/Data/KeyBindings.xml"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			");\n",
+			"Splash",
+			"this",
+			"HEAD",
+			"<<<<",
+			">>>>",
+			"png",
+			" >",
+			" onmouseover=\"highlight(this)\" onmouseout=\"removeHighlight(this)\"",
+			"font",
+			"\");\n",
+			"HEA",
+			"<<<<<",
+			"HEAD",
+			"=====",
+			"HEAD",
+			"Rewards",
+			"ID",
+			"Story",
+			"HEAD",
+			"Reward",
+			"5vw",
+			"<span class=\"selector-arrow\"></span>",
+			"Head",
+			":\n",
+			">\n",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<div class=\"selector\"><span class=\"selector-arrow\"></span></div>\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Website.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

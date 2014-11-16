@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Island Defence</title>
+		<style>
+		canvas { width: 100vw; height: 100vh; }
+		body{margin: 0;}
+		</style>
+
+		<!-- ThreeJS -->
+		<!-- Use this when hosted on a live site
+		<script src="//ajax.googleapis.com/ajax/libs/threejs/r67/three.min.js"></script> -->
+		<script src="js/ThreeJS/three.min.js"></script>
+		<script src="js/ThreeJS/Detector.js"></script>
+		<!-- <script src="js/ThreeJS/OrbitControls.js"></script> -->
+		<script src="js/ThreeJS/Stats.js"></script>
+
+		<!-- ThreeJS extensions -->
+		<script src="js/ThreeJS/THREEx.WindowResize.js"></script>
+		<script src="js/ThreeJS/THREEx.FullScreen.js"></script>
+		<script src="js/ThreeJS/THREEx.KeyboardState.js"></script>
+
+		<!-- Util -->
+		<script src="js/Util/LoadShaders.js"></script>
+		<script src="js/Util/dat.gui.min.js"></script>
+
+		<!-- Base Classes -->
+		<script src="js/BaseClasses/State.js"></script>
+
+		<!-- States -->
+		<script src="js/States/Splash.js"></script>
+		<script src="js/States/GameState.js"></script>
+		<script src="js/States/MainMenu.js"></script>
+
+		<!-- GameManagement -->
+		<script src="js/GameHandling/CanvasContainer.js"></script>
+		<script src="js/GameHandling/GameManager.js"></script>
+
+	</head>
+	<body>
+		<script>
+			new CanvasContainer();
+			new GameManager();
+
+	
+
+			function render() {
+				requestAnimationFrame(render);
+				deltaTime = clock.getDelta();
+				//camera.translateX(Math.sin(Xval) * amount);
+				Gmanager.Update();
+				//controls.update();
+				stats.update();
+				renderer.render(scene, camera);
+			};
+	
+			render();
+			
+
+		</script>
+	</body>
+</html>
