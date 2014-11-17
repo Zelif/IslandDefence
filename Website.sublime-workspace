@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Ve",
+				"Vector3(a, b, c)"
+			],
+			[
+				"island",
+				"islandGeometry"
+			],
+			[
+				"Game",
+				"GameState()"
+			],
+			[
 				"Bu",
 				"ButtonList"
 			],
@@ -38,10 +50,6 @@
 			[
 				"Gam",
 				"GameManager"
-			],
-			[
-				"Game",
-				"Gamemanger"
 			],
 			[
 				"Thre",
@@ -231,9 +239,17 @@
 	"build_system": "HTML",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 334.0,
 		"selected_items":
 		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			],
 			[
 				"gl",
 				"Set Syntax: GLSL"
@@ -285,10 +301,6 @@
 			[
 				"html",
 				"Set Syntax: HTML"
-			],
-			[
-				"css",
-				"Set Syntax: CSS3"
 			],
 			[
 				"jas",
@@ -392,20 +404,24 @@
 	},
 	"expanded_folders":
 	[
-		"/C/inetpub/wwwroot/src",
-		"/C/inetpub/wwwroot/src/js",
-		"/C/inetpub/wwwroot/src/js/BaseClasses",
-		"/C/inetpub/wwwroot/src/js/GameHandling",
-		"/C/inetpub/wwwroot/src/js/States",
-		"/C/inetpub/wwwroot/src/js/ThreeJS",
-		"/C/inetpub/wwwroot/src/js/Util",
-		"/C/inetpub/wwwroot/src/Shaders",
-		"/C/inetpub/wwwroot/src/Shaders/Flag",
-		"/C/inetpub/wwwroot/src/Shaders/MenuButton",
-		"/C/inetpub/wwwroot/src/Shaders/Water"
+		"/C/inetpub/wwwroot/IslandDefence/src",
+		"/C/inetpub/wwwroot/IslandDefence/src/Graphics",
+		"/C/inetpub/wwwroot/IslandDefence/src/js",
+		"/C/inetpub/wwwroot/IslandDefence/src/js/Entities",
+		"/C/inetpub/wwwroot/IslandDefence/src/js/GameHandling",
+		"/C/inetpub/wwwroot/IslandDefence/src/Shaders",
+		"/C/inetpub/wwwroot/IslandDefence/src/Shaders/MenuButton"
 	],
 	"file_history":
 	[
+		"/C/inetpub/wwwroot/IslandDefence/src/js/States/GameState.js",
+		"/C/inetpub/wwwroot/IslandDefence/src/js/Entities/Player.js",
+		"/C/inetpub/wwwroot/IslandDefence/src/js/States/MainMenu.js",
+		"/C/inetpub/wwwroot/IslandDefence/src/index.html",
+		"/C/inetpub/wwwroot/IslandDefence/src/js/GameHandling/CanvasContainer.js",
+		"/C/inetpub/wwwroot/IslandDefence/src/Shaders/MenuButton/MenuButton.frag",
+		"/C/inetpub/wwwroot/IslandDefence/src/js/GameHandling/GameManager.js",
+		"/C/inetpub/wwwroot/IslandDefence/src/js/States/Splash.js",
 		"/C/inetpub/wwwroot/src/js/States/MainMenu.js",
 		"/C/inetpub/wwwroot/src/js/States/GameState.js",
 		"/C/inetpub/wwwroot/src/js/States/Splash.js",
@@ -525,15 +541,7 @@
 		"/C/Users/Jarod/Documents/Page/processlogin_script.php",
 		"/C/Users/Jarod/Documents/Page/css/style.css",
 		"/C/Users/Jarod/Documents/Page/add_user2.php",
-		"/C/Users/Jarod/Documents/Page/database.php",
-		"/C/Users/Jarod/Documents/Page/security.php",
-		"/C/Users/Jarod/Documents/Page/PasswordHash.php",
-		"/C/Users/Jarod/Documents/Page/index.php",
-		"/C/Users/Jarod/AppData/Local/Temp/7zO22E4.tmp/processlogin_script.php",
-		"/C/Users/Jarod/AppData/Local/Temp/7zO46C9.tmp/database.php",
-		"/C/inetpub/wwwroot/index.php",
-		"/C/Users/Jarod/Documents/Page/meow.conf",
-		"/F/UnityProjects/AoT/aot/Unity/Assets/Data/KeyBindings.xml"
+		"/C/Users/Jarod/Documents/Page/database.php"
 	],
 	"find":
 	{

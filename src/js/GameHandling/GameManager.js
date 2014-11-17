@@ -30,6 +30,7 @@ GameManager.prototype = {
 	init: function(){
 		this.currentstate = new Splash();
 		this.currentstate.init();
+		
 	},
 
 	//Update function for GameManager and current state
@@ -38,7 +39,7 @@ GameManager.prototype = {
 			this.currentstate.Update();
 		}else{
 			this.currentstate.CleanUp();
-			this.currentstate = this.currentstate.nextstate;
+			this.currentstate = this.currentstate.nextState;
 			this.currentstate.init();
 			console.log('Changed State.');
 		}

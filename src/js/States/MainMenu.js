@@ -231,18 +231,19 @@ MainMenu.prototype = {
 	// when they are pressed, only check the collision boxes.
 
 	onMouseDown: function ( event ) {
-		this.CameraToMouse();
-		// Check all buttons
-		for (var i = this.ButtonList.length - 1; i >= 0; i--) {
-			// Check if the button is active
-			if(this.ButtonList[i].Mesh.visible == true){
-				// Get the object that was hit
-				var intersectedObject = this.raycaster.intersectObject( this.ButtonList[i].Collision );
+		if(this.running == true){
+			this.CameraToMouse();
+			// Check all buttons
+			for (var i = this.ButtonList.length - 1; i >= 0; i--) {
+				// Check if the button is active
+				if(this.ButtonList[i].Mesh.visible == true){
+					// Get the object that was hit
+					var intersectedObject = this.raycaster.intersectObject( this.ButtonList[i].Collision );
 
-				// If there was 1 or more objects change the hovering state
-				if ( intersectedObject.length > 0 ) {
-					// Change the hovering uniform to 1 which indicates a hovering state
-					this.ButtonList[i].Mesh.material.uniforms[ 'hovering' ].value = 1.0;
+					// If there was 1 or more objects change the hovering state
+					if ( intersectedObject.length > 0 ) {
+						this.HandleButtonClick(this.ButtonList[i].Collision);
+					};
 				};
 			};
 		};
@@ -275,6 +276,38 @@ MainMenu.prototype = {
 				};
 			};
 		};
+	},
+
+	/////////////////////
+	// OnClick Buttons //
+	/////////////////////
+	// Handle how the given button reacts after getting
+	// clicked, this comes from onMouseDown a button is
+	// passed in to be handled. 
+	// Will change the state if needed.
+
+	HandleButtonClick: function(button){
+		switch(button.userData['buttonName']){
+			case "NewGame":
+				this.nextState = new GameState();
+				this.running = false;
+				break;
+			case "Stats":
+				// this.nextState = new GameState();
+				// this.running = false;
+				console.log("No current state created.");
+				break;
+			case "Options":
+				// this.nextState = new GameState();
+				// this.running = false;
+				console.log("No current state created.");
+				break;
+			case "Exit":
+				// this.nextState = new GameState();
+				// this.running = false;
+				console.log("No current state created.");
+				break;
+		}
 	},
 
 
@@ -321,7 +354,17 @@ MainMenu.prototype = {
 	// called right before the new one is created.
 
 	CleanUp: function(){
-		document.removeEventListener( 'mousedown', this.onMouseDown.bind(this), false );
-		document.removeEventListener( 'mousemove', this.onMouseMove.bind(this), false );
+		scene.remove( this.FadeObject.meshdata );
+		scene.remove( this.flag );
+		scene.remove( this.Background );
+		
+		for (var i = this.ButtonList.length - 1; i >= 0; i--) {
+			// Remove both meshes to the scene
+			scene.remove(this.ButtonList[i].Mesh);
+			scene.remove(this.ButtonList[i].Collision);
+		};
+
+		document.removeEventListener( 'mousedown', this.onMouseDown, false );
+		document.removeEventListener( 'mousemove', this.onMouseMove, false );
 	}
 };

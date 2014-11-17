@@ -95,21 +95,4 @@ CanvasContainer.prototype.init = function(){
 	stats.domElement.style.zIndex = 100;
 	container.appendChild( stats.domElement );
 
-	////////////////////////////////////////////////////////////////////////////////
-	// From here down locate elsewhere
-	////////////////////////////////////////////////////////////////////////////////
-
-	////////////
-	// Lights //
-	////////////
-
-	//Add directional light to the scene
-	// var directionalLight = new THREE.DirectionalLight( 0xffffff );
- //    directionalLight.position.set( 1, 1, 0.5 ).normalize();
- //   	scene.add( directionalLight );
-
-	// //Add subtle ambient lighting
-	// var ambientLight = new THREE.AmbientLight(0x111111);
-	// scene.add(ambientLight);
-
 };

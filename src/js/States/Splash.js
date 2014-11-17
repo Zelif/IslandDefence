@@ -176,7 +176,7 @@ Splash.prototype = {
 		}else{
 			scene.remove( this.FadeObject.meshdata );
 			this.running = false;
-			this.nextstate = new MainMenu();
+			this.nextState = new MainMenu();
 		}
 	},
 

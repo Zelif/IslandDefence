@@ -39,7 +39,7 @@ void main(void)
         // x is increased by 2 to avoid the 0 column
         float gx = 0.0;
         for(int y = -1; y < 2; y++){
-            for(int x = -1; x < 2; x + 2){
+            for(int x = -1; x < 2; x++){
                 gx += horizonalKernel[y + 1][x + 1] * getLuma( float(x), float (y) );
             }
         }
@@ -54,7 +54,7 @@ void main(void)
         // of each surrounding pixels multiplied by kernel
         // y is increased by 2 to avoid the 0 row
         float gy = 0.0;
-        for(int y = -1; y < 2; y + 2){
+        for(int y = -1; y < 2; y++){
             for(int x = -1; x < 2; x++){
                 gy += verticalKernel[y + 1][x + 1] * getLuma( float(x), float (y) );
             }
