@@ -43,6 +43,7 @@ GameState.prototype = {
 		// Shaders //
 		/////////////
 
+		// Shader for the water
 		var shaderlist = LoadMaterialShader("Water");
 		this.testMaterial = new THREE.ShaderMaterial( {
 		    uniforms: { 
@@ -264,10 +265,10 @@ GameState.prototype = {
 		container.appendChild( infoPanel );
 	},
 
-	//////////////////
-	// Create House //
-	//////////////////
-	// Creates the house on the island to defend
+	////////////////////
+	// Spawn a Pirate //
+	////////////////////
+	// Spawns a pirate in the location supplied
 	// TODO: 	* Attack range box
 	//			* JSON Model
 	//			* Texture

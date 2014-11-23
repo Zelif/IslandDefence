@@ -354,16 +354,17 @@ MainMenu.prototype = {
 	// called right before the new one is created.
 
 	CleanUp: function(){
+		// Remove all background objects from scene
 		scene.remove( this.FadeObject.meshdata );
 		scene.remove( this.flag );
 		scene.remove( this.Background );
-		
+		// Remove all the buttons from the scene
 		for (var i = this.ButtonList.length - 1; i >= 0; i--) {
 			// Remove both meshes to the scene
 			scene.remove(this.ButtonList[i].Mesh);
 			scene.remove(this.ButtonList[i].Collision);
 		};
-
+		// Unregister events for the mouse
 		document.removeEventListener( 'mousedown', this.onMouseDown, false );
 		document.removeEventListener( 'mousemove', this.onMouseMove, false );
 	}
